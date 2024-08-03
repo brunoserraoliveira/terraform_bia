@@ -13,3 +13,13 @@ terraform {
 provider "aws" {
   region = "us-east-1"
 }
+
+resource "aws_instance" "bia_local" {
+  ami = "ami-02f3f602d23f1659d"
+  instance_type = "t3.micro"
+
+  tags = {
+    ambiente = "dev"
+    Name = "bia-local"
+  }
+}
