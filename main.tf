@@ -46,7 +46,7 @@ resource "aws_instance" "bia_local" {
   instance_type = "t3.micro"
 
   root_block_device {
-    volume_size = 10
+    volume_size = 12
   }
 
   vpc_security_group_ids = [aws_security_group.bia-dev.id]
