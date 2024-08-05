@@ -1,5 +1,5 @@
 variable "instance_name" {
-  type = string
+  type        = string
   description = "Nome da instancia EC2 de trabalho"
-  default = "bia-dev-tf"
+  default     = "bia-dev-tf"
 }

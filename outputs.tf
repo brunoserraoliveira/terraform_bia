@@ -1,11 +1,11 @@
 output "instance_id" {
   description = "ID da EC2"
-  value = aws_instance.bia_local.id
+  value       = aws_instance.bia_local.id
 }
 
 output "instance_type" {
   description = "Tipo da EC2"
-  value = aws_instance.bia_local.instance_type
+  value       = aws_instance.bia_local.instance_type
 }
 
 output "instance_security_groups" {
