@@ -10,7 +10,7 @@ output "instance_type" {
 
 output "instance_security_groups" {
   description = "SG da EC2"
-  value       = aws_security_group.bia-dev.name
+  value       = aws_security_group.bia_dev.name
 }
 
 output "public_ip" {

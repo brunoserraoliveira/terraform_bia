@@ -7,7 +7,7 @@ resource "aws_instance" "bia_local" {
     volume_size = 12
   }
 
-  vpc_security_group_ids = [aws_security_group.bia-dev.id]
+  vpc_security_group_ids = [aws_security_group.bia_dev.id]
   tags = {
     ambiente = "dev"
     Name     = var.instance_name
