@@ -4,4 +4,4 @@
 terraform.tfstate
 terraform.tfstate.*
 
-.pem*
+*.pem
